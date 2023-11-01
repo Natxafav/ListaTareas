@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: opx;
+}
+.container {
+    margin: 10px;
+    width: 99%;
+    min-width: 50vw;
+    background-color: rgb(113, 113, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 2px dotted blue;
+}
+.divTareas {
+    width: 80%;
+}
+.etiquetaTarea {
+    display: inline-block;
+    width: 80%;
+    text-align: end;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#datos {
+    width: 99%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#agregar {
+    margin: 5px;
+}
+.agregarContainer {
+    width: 300px;
+}
+.eliminarContainer {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check {
+    margin: 15px;
+}
+label {
+    width: 300px;
+    text-align: end;
+    margin-right: 10px;
+}
