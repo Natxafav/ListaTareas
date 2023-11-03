@@ -17,7 +17,7 @@ h1 {
     text-align: center;
     border-bottom: 2px dotted blue;
 }
-.divTareas {
+.divTareas, .divTareas1 {
     width: 80%;
 }
 .etiquetaTarea {
@@ -30,14 +30,39 @@ form {
     flex-direction: column;
     align-items: center; 
 }
-#datos {
-    width: 99%;
+p{
+   display: block; 
+   font-size: 22px;
+   font-weight: 600;
+}
+.datosTotales{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;                
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.datosEliminados{
+    width: 40%;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid rgb(72, 72, 153);
+    margin: 1%;
+    margin-top: 30px;
 }
-#agregar {
+#datos {
+    width: 40%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(72, 72, 153);
+    margin: 1%;
+    margin-top: 30px;
+}
+#agregarInput {
     margin: 5px;
 }
 .agregarContainer {
@@ -53,7 +78,7 @@ form {
     margin: 15px;
 }
 label {
-    width: 300px;
+    width: 60;
     text-align: end;
     margin-right: 10px;
 }

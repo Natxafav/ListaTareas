@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Lista de tareas Nati.</title>
-</head>
-<body>
-    <h1>Lista de tareas</h1>
-    <div class="container">
-        
-        <form >         
-           
-            <div class="agregarContainer">
-                <input type="text" name="agregar" id="agregar">
-                <input type="button" value="Agregar tareas" id="agregarTareas"> 
-            </div>
-            <div class="eliminarContainer">
-                <input type="button" value=" Eliminar tareas completadas" id="eliminarBtn">
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Lista de tareas Nati.</title>
+    </head>
+    <body>
+        <h1>Lista de tareas</h1>
+        <div class="container">
 
-        </form>
-        <div id="datos">
+            <form>
 
+                <div class="agregarContainer">
+                    <input type="text" name="agregar" id="agregarInput">
+                    <input type="button" value="Agregar tareas"
+                        id="agregarTareas">
+                </div>
+                <div class="eliminarContainer">
+                    <input type="button" value=" Eliminar tareas completadas"
+                        id="eliminarBtn">
+                </div>
+
+            </form>
+            <div class="datosTotales">
+                <div id="datos">
+                    <p>Pendientes</h3>
+
+                </div>
+                <div class="datosEliminados">
+                    <p>Eliminados</p>
+
+                </div>
+
+            </div>
         </div>
-    </div>
 
+        <script src="index.js"></script>
 
-
-
-    <script src="index.js"></script>
-    
-</body>
+    </body>
 </html>
